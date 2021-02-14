@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Stream da memes",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtc3585/streaming-media-assignment.git"
+  },
+  "author": "Justin Connolly",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jtc3585/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/jtc3585/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
